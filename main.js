@@ -3,6 +3,11 @@
 // * setItem(key , value )
 localStorage.setItem('Language 1' , 'JAVASCRIPT')
 localStorage.setItem('Language 2' , 'PYTHON')
+localStorage.setItem('Language 3' , 'C#')
+
 
 // * getItem(key)
 console.log(localStorage.getItem('Language 1')); // * JAVASCRIPT
+
+// * removeItem(key)
+localStorage.removeItem('Language 3'); // * C#
