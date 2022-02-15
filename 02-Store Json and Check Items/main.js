@@ -24,4 +24,9 @@ localStorage.setItem('Person', JSON.stringify(fady))
 
 
 // * Retrive Data as Object not as a String
-console.log(JSON.parse(localStorage.getItem('Person')))
+console.log(JSON.parse(localStorage.getItem('Person')));
+
+
+
+// * Check if there is Items in Local Storage
+(localStorage.length > 0) ? alert('ITEMS FOUNDED') : alert('NO ITEMS FOUNDED')
