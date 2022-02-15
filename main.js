@@ -15,3 +15,6 @@ localStorage.removeItem('Language 3'); // * C#
 
 // * clear()
 // localStorage.clear()
+
+// * key()
+console.log(localStorage.key(0)) // * Language 1 
