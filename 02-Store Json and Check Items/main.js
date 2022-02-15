@@ -1,3 +1,7 @@
+// * Session storage Example .. have the same methods as Local Storage 
+sessionStorage.setItem('HI',1243)
+
+
 // * Store json and check items
 
 /*
@@ -9,5 +13,3 @@
     *   length()
 */
 
-// * Session storage Example .. have the same methods as Local Storage 
-// sessionStorage.setItem('HI',1243)
