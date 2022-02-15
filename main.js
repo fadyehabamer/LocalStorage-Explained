@@ -11,3 +11,7 @@ console.log(localStorage.getItem('Language 1')); // * JAVASCRIPT
 
 // * removeItem(key)
 localStorage.removeItem('Language 3'); // * C#
+
+
+// * clear()
+// localStorage.clear()
