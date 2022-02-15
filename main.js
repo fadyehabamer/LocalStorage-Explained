@@ -18,3 +18,4 @@ localStorage.removeItem('Language 3'); // * C#
 
 // * key()
 console.log(localStorage.key(0)) // * Language 1 
+console.log(localStorage.key(4)) // * null
