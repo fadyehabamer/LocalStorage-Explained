@@ -13,3 +13,10 @@ sessionStorage.setItem('HI',1243)
     *   length()
 */
 
+const fady = {
+    name:'FADY',
+    age : 21,
+    PL : 'JS'
+}
+
+localStorage.setItem('me' , JSON.stringify(fady))
