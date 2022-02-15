@@ -1,5 +1,5 @@
 // * Session storage Example .. have the same methods as Local Storage 
-sessionStorage.setItem('HI',1243)
+sessionStorage.setItem('HI', 1243)
 
 
 // * Store json and check items
@@ -14,9 +14,14 @@ sessionStorage.setItem('HI',1243)
 */
 
 const fady = {
-    name:'FADY',
-    age : 21,
-    PL : 'JS'
+    name: 'FADY',
+    age: 21,
+    PL: 'JS'
 }
 
-localStorage.setItem('me' , JSON.stringify(fady))
+// * convert object to STRING to make local storage understand what to store
+localStorage.setItem('Person', JSON.stringify(fady))
+
+
+// * Retrive Data as Object not as a String
+console.log(JSON.parse(localStorage.getItem('Person')))
