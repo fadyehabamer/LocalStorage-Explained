@@ -8,3 +8,5 @@
     * Check for items
     *   length()
 */
+
+sessionStorage.setItem('HI',1243)
