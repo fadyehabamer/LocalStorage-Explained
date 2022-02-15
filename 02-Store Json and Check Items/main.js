@@ -9,4 +9,5 @@
     *   length()
 */
 
-sessionStorage.setItem('HI',1243)
+// * Session storage Example .. have the same methods as Local Storage 
+// sessionStorage.setItem('HI',1243)
