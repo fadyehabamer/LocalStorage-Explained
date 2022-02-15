@@ -1,0 +1,2 @@
+// OPEN CONSOLE -> 
+localStorage.setItem()
